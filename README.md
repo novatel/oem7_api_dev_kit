@@ -1,12 +1,10 @@
 <h1>Hexagon | NovAtel OEM7 API Windows Development Kit</h1>
 Welcome to the support repository for the NovAtel OEM7 API (Lua interpreter) development kit. 
-<BR><BR>
 
 <p>
     <h2>OEM7 API General Information</h2>
     Please refer to <a href="https://novatel.com/products/firmware-options-pc-software/gnss-receiver-firmware-options/api">novatel.com</a>.
 </p>
-<BR><BR>
 <p>
     <h2>Quick Start Steps</h2>
     Follow these steps to get started quickly. For greater detail, please refer to the <a href="https://github.com/novatel/oem7_api_dev_kit/wiki">Wiki</a>.
@@ -27,7 +25,6 @@ Welcome to the support repository for the NovAtel OEM7 API (Lua interpreter) dev
     <h3>Explore, Edit, Deploy your Scripts</h3>
     To start deploying your own OEM7 API scripts, please refer to the <a href="https://github.com/novatel/oem7_api_dev_kit/wiki">documentation wiki</a>.
 </p>
-<BR><BR>
 <p>
     <h3>Get Support</h3>
     For support with NovAtel products, including the OEM7 API, please contact NovAtel Customer Service here:<BR>
