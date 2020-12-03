@@ -31,11 +31,11 @@ Welcome to the support repository for the NovAtel OEM7 API (Lua interpreter) dev
 <BR><BR>
 <p>
     <h3>Explore, Edit, Deploy your Scripts</h3>
-    To start deploying your own OEM7 API scripts, please refer to the bundled documentation stored within the 'docs' folder.
+    To start deploying your own OEM7 API scripts, please refer to the <a href="https://github.com/novatel/oem7_api_dev_kit/wiki">documentation wiki</a>.
 </p>
 <BR><BR>
 <p>
-    <h3>Get Applications Engineering Support</h3>
-    For support with NovAtel products, including the OEM7 API, please contact NovAtel Applications Engineering here:<BR>
+    <h3>Get Support</h3>
+    For support with NovAtel products, including the OEM7 API, please contact NovAtel Customer Service here:<BR>
     <a href="https://docs.novatel.com/OEM7/Content/Front_Matter/Customer_Support.htm">https://docs.novatel.com/OEM7/Content/Front_Matter/Customer_Support.htm</a>
 </p>
