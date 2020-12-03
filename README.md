@@ -9,7 +9,7 @@ Welcome to the support repository for the NovAtel OEM7 API (Lua interpreter) dev
     <h2>Quick Start Steps</h2>
     Follow these steps to get started quickly. For greater detail, please refer to the <a href="https://github.com/novatel/oem7_api_dev_kit/wiki">Wiki</a>.
     <OL>
-        <LI>Confirm that your receiver supports the OEM7 API, use the MODELFEATURES command to assist with this.</LI>
+    <LI>Confirm that your receiver supports the OEM7 API, use the <a href="https://docs.novatel.com/OEM7/Content/Logs/MODELFEATURES.htm">MODELFEATURES</a> command to assist with this, look for "AUTHORIZED API".</LI>
         <LI>Download the OEM7 API dev kit</LI>
         <LI>Copy the lua\TEMPLATE_PROJECT directory to make a new project directory under the lua folder, for example lua\My_Project</LI>
     <LI>Update lua\My_Project\make_my_project.bat to refer to your new project</LI>
@@ -17,8 +17,8 @@ Welcome to the support repository for the NovAtel OEM7 API (Lua interpreter) dev
         <LI>Optional: Rename the script from autoexec.lua to something else such as my_script.lua, only if you do not want the script to automatically run when the receiver boots.</LI>
         <LI>Run the batch script lua\My_Project\make_my_project.bat to generate a .hex file you can upload to your receiver.</LI>
         <LI>Upload the .hex file to your receiver using the Upload tool of the NovAtel Application Suite (or the WebUI Firmware updater, if your receiver supports it).</LI>
-        <LI>Use the LUAFILELIST command to confirm that your script was loaded</LI>
-        <LI>Use the LUA START command to start your script (unless it was already started automatically)</LI>
+    <LI>Use the <a href="https://docs.novatel.com/OEM7/Content/Logs/LUAFILELIST.htm">LUAFILELIST</a> command to confirm that your script was loaded</LI>
+    <LI>Use the <a href="https://docs.novatel.com/OEM7/Content/Commands/LUA.htm">LUA START</a> command to start your script (unless it was already started automatically)</LI>
     </OL>
 </p>    
 <p>
