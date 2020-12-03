@@ -22,8 +22,8 @@ Welcome to the support repository for the NovAtel OEM7 API (Lua interpreter) dev
     </OL>
 </p>    
 <p>
-    <h3>Explore, Edit, Deploy your Scripts</h3>
-    To start deploying your own OEM7 API scripts, please refer to the <a href="https://github.com/novatel/oem7_api_dev_kit/wiki">documentation wiki</a>.
+    <h3>Learn more about the OEM7 API</h3>
+    For more detailed documentation, please refer to the OEM7 API <a href="https://github.com/novatel/oem7_api_dev_kit/wiki">documentation wiki</a>.
 </p>
 <p>
     <h3>Get Support</h3>
