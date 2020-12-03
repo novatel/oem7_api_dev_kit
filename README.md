@@ -12,7 +12,7 @@ Welcome to the support repository for the NovAtel OEM7 API (Lua interpreter) dev
         <LI>Confirm that your receiver supports the OEM7 API, use the MODELFEATURES command to assist with this.</LI>
         <LI>Download the OEM7 API dev kit</LI>
         <LI>Copy the lua\TEMPLATE_PROJECT directory to make a new project directory under the lua folder, for example lua\My_Project</LI>
-        <LI>Update lua\My_Project\make_my_project.bat to refer to your new project</LI>
+    <LI>Update <pre>lua\My_Project\make_my_project.bat</pre> to refer to your new project</LI>
         <LI>Edit the message in the Lua script lua\My_Project\lua\autoexec.lua</LI>
         <LI>Optional: Rename the script from autoexec.lua to something else such as my_script.lua, only if you do not want the script to automatically run when the receiver boots.</LI>
         <LI>Run the batch script lua\My_Project\make_my_project.bat to generate a .hex file you can upload to your receiver.</LI>
