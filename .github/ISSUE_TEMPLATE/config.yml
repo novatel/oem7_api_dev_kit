@@ -1,0 +1,14 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Customer Support Questions
+    url: https://docs.novatel.com/OEM7/Content/Front_Matter/Customer_Support.htm
+    about: Direct any personalized inquiry to NovAtel Customer Support by contacting support.novatel@hexagon.com, or click open to the right
+  - name: NovAtel OEM7 Documentation
+    url: https://docs.novatel.com/OEM7/Content/Home.htm
+    about: Visit the OEM7 Documentation Portal
+  - name: Wiki Documentation
+    url: https://github.com/novatel/oem7_api_dev_kit/wiki
+    about: Detailed documentation about the OEM7 API Dev Kit
+  - name: NovAtel.com API Product Information
+    url: https://novatel.com/products/firmware-options-pc-software/gnss-receiver-firmware-options/api
+    about: OEM7 API Product Information on novatel.com
