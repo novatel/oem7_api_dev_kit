@@ -8,27 +8,21 @@ Welcome to the support repository for the NovAtel OEM7 API (Lua interpreter) dev
 </p>
 <BR><BR>
 <p>
-    <h2>Start using the OEM7 API Dev Kit</h2>
-    <h3>OEM7 auth-code Requirements</h3>
-    <p>
-    Use of the OEM7 API requires your NovAtel receiver is configured with an API-ready <a href="https://docs.novatel.com/OEM7/Content/Firmware_Update/Upgrading_Using_the_AUTH.htm">authorization code</a>. 
-    </p>
-    <p>
-    To check if your OEM7 receiver is authorized for API use, you can use the <a href="https://docs.novatel.com/OEM7/Content/Logs/MODELFEATURES.htm">MODELFEATURES</a> log, as follows:
-    
-`LOG MODELFEATURES`
-    </p>
-    <p>
-    If your receiver is not authorized for the API, you may contact NovAtel Applications Engineering to acquire a temporary trial auth-code.
-    </p>
-</p>
-<BR>
-<p>
-    <h3>Setup Zerobrane Development IDE</h3>
-    You may download the Zerobrane IDE as discussed in the documentation, please refer here:<BR>
-    <a href="https://download.zerobrane.com/ZeroBraneStudioEduPack-1.70-win32.zip">https://download.zerobrane.com/ZeroBraneStudioEduPack-1.70-win32.zip</a>
-</p>
-<BR><BR>
+    <h2>Quick Start Steps</h2>
+    Follow these steps to get started quickly. You can return and explore the detailed topics documented below when you are ready for more detail.
+    <OL>
+        <LI>Confirm that your receiver supports the OEM7 API, use the MODELFEATURESS command to assist with this.</LI>
+        <LI>Download the OEM7 API dev kit</LI>
+        <LI>Copy the lua\TEMPLATE_PROJECT directory to make a new project directory under the lua folder, for example lua\My_Project</LI>
+        <LI>Update lua\My_Project\make_my_project.bat to refer to your new project</LI>
+        <LI>Edit the message in the Lua script lua\My_Project\lua\autoexec.lua</LI>
+        <LI>Optional: Rename the script from autoexec.lua to something else such as my_script.lua, only if you do not want the script to automatically run when the receiver boots.</LI>
+        <LI>Run the batch script lua\My_Project\make_my_project.bat to generate a .hex file you can upload to your receiver.</LI>
+        <LI>Upload the .hex file to your receiver using the Upload tool of the NovAtel Application Suite (or the WebUI Firmware updater, if your receiver supports it).</LI>
+        <LI>Use the LUAFILELIST command to confirm that your script was loaded</LI>
+        <LI>Use the LUA START command to start your script (unless it was already started automatically)</LI>
+    </OL>
+</p>    
 <p>
     <h3>Explore, Edit, Deploy your Scripts</h3>
     To start deploying your own OEM7 API scripts, please refer to the <a href="https://github.com/novatel/oem7_api_dev_kit/wiki">documentation wiki</a>.
