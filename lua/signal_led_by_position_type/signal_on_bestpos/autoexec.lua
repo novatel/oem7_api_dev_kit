@@ -45,7 +45,7 @@
 -- edit the below set_status_by_bestpos function. By default, the good state is 
 -- defined as when the BESTPOS log reports a SOL_COMPUTED Solution Status.
 --
--- Questions may be directed to support@novatel.com
+-- Questions may be directed to support.novatel@hexagon.com
 --******************************************************************************
 
 -- Configurable commands below. Manually verify that you can use these on your model.
