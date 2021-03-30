@@ -7,7 +7,7 @@ Welcome to the support repository for the NovAtel OEM7 API (Lua interpreter) dev
 </p>
 <p>
     <h2>Quick Start Steps</h2>
-    Follow these steps to get started quickly. For greater detail, please refer to the <a href="https://github.com/novatel/oem7_api_dev_kit/wiki">Wiki</a>.
+    Follow these steps to get started quickly. For greater detail, please refer to the <a href="https://docs.novatel.com/OEM7/Content/Lua/Overview.htm">NovAtel Documentation Portal</a>.
     <OL>
     <LI>Confirm that your receiver supports the OEM7 API, use the <a href="https://docs.novatel.com/OEM7/Content/Logs/MODELFEATURES.htm">MODELFEATURES</a> command to assist with this, look for "AUTHORIZED API".</LI>
         <LI>Download the OEM7 API dev kit</LI>
@@ -23,7 +23,7 @@ Welcome to the support repository for the NovAtel OEM7 API (Lua interpreter) dev
 </p>    
 <p>
     <h3>Learn more about the OEM7 API</h3>
-    For more detailed documentation, please refer to the OEM7 API <a href="https://github.com/novatel/oem7_api_dev_kit/wiki">documentation wiki</a>.
+    For more detailed documentation, please refer to the OEM7 API <a href="https://docs.novatel.com/OEM7/Content/Lua/Overview.htm">documentation</a>.
 </p>
 <p>
     <h3>Get Support</h3>
