@@ -5,4 +5,4 @@ Load the erase.hex to completely remove the DB_LUA_SCRIPTS data block.
 If unsure, you can use the clear.hex option. 
 
 The erase.hex option would be provided here as the only option, however
-it doesn't currently work with the beta release of NovAtel Application Suite.
+it is not currently supported by the NovAtel Application Suite application.
