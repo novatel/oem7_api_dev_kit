@@ -5,6 +5,7 @@ Welcome to the support repository for the NovAtel OEM7 API (Lua interpreter) dev
     <h2>OEM7 API General Information</h2>
     The <a href="https://novatel.com/products/receivers/gnss-gps-receiver-boards">NovAtel OEM7</a> API is used to develop specialized applications using the Lua programming language to further extend the functionality of OEM7 family receivers. User-created Lua scripts run alongside the core receiver firmware using an embedded Lua script interpreter. The scripts can interact with the core firmware by sending commands to the receiver and retrieving logs for processing.
 </p>
+
 <p>
 Please refer to the <a href="https://novatel.com/products/firmware-options-pc-software/gnss-receiver-firmware-options/api">API page at novatel.com</a> for more information.
 </p>
