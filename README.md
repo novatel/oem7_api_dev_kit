@@ -3,13 +3,11 @@ Welcome to the support repository for the NovAtel OEM7 API (Lua interpreter) dev
 
 <p>
     <h2>OEM7 API General Information</h2>
-    The <a href="https://novatel.com/products/receivers/gnss-gps-receiver-boards">NovAtel OEM7</a> API is used to develop specialized applications using the Lua programming language to further extend the functionality of OEM7 family receivers. User-created Lua scripts run alongside the core receiver firmware using an embedded Lua script interpreter. The scripts can interact with the core firmware by sending commands to the receiver and retrieving logs for processing.
+    The NovAtel OEM7 API is used to develop specialized applications using the Lua programming language to further extend the functionality of OEM7 family receivers. User-created Lua scripts run alongside the core receiver firmware using an embedded Lua script interpreter. The scripts can interact with the core firmware by sending commands to the receiver and retrieving logs for processing.
 </p>
-
 <p>
-Please refer to the <a href="https://novatel.com/products/firmware-options-pc-software/gnss-receiver-firmware-options/api">API page at novatel.com</a> for more information.
+Please refer to the following API page at <a href="https://novatel.com/products/firmware-options-pc-software/gnss-receiver-firmware-options/api">novatel.com</a> for more information.
 </p>
-
 <p>
     <h2>Quick Start Steps</h2>
     Follow these steps to get started quickly. For greater detail, please refer to the <a href="https://docs.novatel.com/OEM7/Content/Lua/Overview.htm">NovAtel Documentation Portal</a>.
@@ -26,13 +24,11 @@ Please refer to the <a href="https://novatel.com/products/firmware-options-pc-so
     <LI><p>Use the <a href="https://docs.novatel.com/OEM7/Content/Logs/LUAFILELIST.htm">LUAFILELIST</a> command to confirm that your script was loaded</p></LI>
     <LI><p>Use the <a href="https://docs.novatel.com/OEM7/Content/Commands/LUA.htm">LUA START</a> command to start your script (unless it was already started automatically)</p></LI>
     </OL>
-</p>
-
+</p>    
 <p>
     <h3>Learn more about the OEM7 API</h3>
     For more detailed documentation, please refer to the OEM7 API <a href="https://docs.novatel.com/OEM7/Content/Lua/Overview.htm">documentation</a>.
 </p>
-
 <p>
     <h3>Get Support</h3>
     For support with NovAtel products, including the OEM7 API, please contact NovAtel Customer Service here:<BR>
